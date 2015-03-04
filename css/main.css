@@ -16,3 +16,60 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.input {
+    margin: auto;
+    overflow: hidden;
+    padding: 1em 2em;
+    text-align: center;
+    border: solid 2px lightgray;
+    border-bottom: none;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: rgb(240,240,240);
+    width: 20em;
+}
+
+.todolist {
+    margin: auto;
+    padding: 1.5em 2em;
+    overflow:hidden;
+    border: solid 2px lightgray;
+    border-top: none;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 20em;
+    background-color: rgb(255,255,255);   
+}
+
+.add {
+    margin: 0;
+    padding: .5em;
+    width: 4.6em;
+    border: none;
+    text-align: center;
+    float: right;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    background-color: rgb(209,209,209);
+    -webkit-transition: width 2s;
+}
+
+.input-field {
+    margin: 0;
+    padding: .5em;
+    width: 18.5em;
+    float: left;
+}
+
+.list {
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+}
