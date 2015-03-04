@@ -17,6 +17,10 @@ html {
     box-sizing: inherit;
 }
 
+form {
+    display: inline-block;
+}
+
 .input {
     margin: auto;
     overflow: hidden;
@@ -42,26 +46,6 @@ html {
     background-color: rgb(255,255,255);   
 }
 
-.add {
-    margin: 0;
-    padding: .5em;
-    width: 4.6em;
-    border: none;
-    text-align: center;
-    float: right;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
-    background-color: rgb(209,209,209);
-    -webkit-transition: width 2s;
-}
-
-.input-field {
-    margin: 0;
-    padding: .5em;
-    width: 18.5em;
-    float: left;
-}
-
 .list {
     margin: 0;
     padding:0;
@@ -69,7 +53,46 @@ html {
     list-style-type: none;
 }
 
+.add {
+    margin: 0;
+    padding: .7em;
+    width: 4.5em;
+    border: none;
+    text-align: center;
+    float: right;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    background-color: gray;
+    -webkit-transition: width 2s;
+}
+
+.add:hover{
+    background-color: darkgray;
+}
+
+.input-field {
+    margin: 0;
+    padding: .5em;
+    width: 18em;
+    float: left;
+}
+
 .label {
     display: block;
-    font-weight: bold;
+}
+
+.remove {
+    margin: 0;
+    padding: .5em;
+    width: 2em;
+    height: 3em;
+    background-image: url();
+    float: right;
+    text-align: center;
+    -webkit-transition: width 2s;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
 }
